@@ -327,7 +327,7 @@ questionButtons.questionButton2.addEventListener("click", () => {
 const thinkFaster = document.getElementById("think-faster")
 const resultImage = document.getElementById("result-image")
 
-let finalPersonalityScore = "ESTP"
+let finalPersonalityScore = ""
 
 const criteria = [
     ["I", "E"],

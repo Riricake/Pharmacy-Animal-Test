@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    overflow: visible;
 }
 
 h1, h2, h3 {
@@ -42,6 +43,7 @@ div {
     width: 100%;
     max-width: 400px;
     /* box-shadow: black 0 0 100px; */
+    overflow: visible;
 }
 
 .screen {
