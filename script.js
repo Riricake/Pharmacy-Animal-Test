@@ -118,7 +118,6 @@ const questions = [
                 score: "N"
             }
         ],
-        imageSize: "110%"
     },
     {
         type: "question",
@@ -254,8 +253,6 @@ function displayQuestion(questionNumber) {
         questionButtons.infoButton.style.display = "flex"
         questionImage.src = "./assets/intro.gif"
     }
-
-    questionImage.style.width = questionData.imageSize || "130%"
 }
 
 function nextQuestion() {
